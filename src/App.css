@@ -79,10 +79,6 @@ a {
     text-decoration: none;
 }
 
-.form {
-    display: block;
-}
-
 table, th, td {
     border: 1px solid gray;
 }
