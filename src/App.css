@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    text-align: center;
+    margin: 4%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login_btn {
+    margin: 30px 15px 0 0;
+    padding: 7px;
+    width: 150px;
+    background: black;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header {
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+    padding: 120px 0 0 0;
+    font-size: 70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#register_btn span {
+    display: inline-block;
+    position: relative;
+}
+
+form {
+    display: inline-block;
+    background: #6495ed;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 32px 0 16px 0;
+    transform: translateY(10%);
+}
+
+form label {
+    float: left;
+    margin: 0;
+    padding: 0
+}
+
+input {
+    width: 240px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    display: inline-block;
+}
+
+#submit_btn {
+    width: 240px;
+    padding: 10px;
+    border: none;
+    background: black;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#submit_btn:hover {
+    background: #333;
+}
+
+a:hover {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form {
+    display: block;
+}
+
+table, th, td {
+    border: 1px solid gray;
+}
+table {
+    width: 100%;
+}
+
+.error {
+    width: 100%;
+    color: red;
 }
